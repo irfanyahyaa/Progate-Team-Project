@@ -11,12 +11,7 @@
 @media (max-width: 670px) {
     
     .booking-form {
+        display:block;
         width:100%;
-    }
-    form{
-        width:50%;
-    }
-    .container h1{
-        font-size:10px;
     }
 }
