@@ -67,7 +67,7 @@ header {
 }
 
 .booking-desc {
-    padding: 50px 75px;
+    padding: 30px 55px;
     grid-area: desc;
     background-color: aquamarine;
 }
@@ -144,26 +144,25 @@ button:active {
 }
 
 .text-ps{
-    padding-bottom: 20px;
-    padding-top: 20px;
     font-size: 30px;
     font-weight: bold;
     border-bottom: 2px solid rgb(147, 145, 145);
     margin-bottom: 30px;
-    color: white;
-    background-color: rgb(49, 49, 49);
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(49, 49, 49); */
 }
 
 .cards{
-    margin-left: 90px ;
-    margin-right: 40px;
+    /* margin-left: 0px ; */
+    /* margin-right: 20px; */
+    /* padding-right: 90px; */
 }
 
 .card{
     float: left;
     text-align: left;
-    padding-left: 25px;
-    padding-right: 68px;
+    padding-left: 55px;
+    padding-right: 28px;
     padding-bottom: 70px;
 }
 
@@ -284,6 +283,11 @@ float: right;
     padding-top: 5px;
     float: left;
     padding-left:50px;
+  }
+
+  .bottom-wrapper p{
+    padding-top: 20px;
+    font-size: 25px;
   }
   
   .bottom-wrapper .contenn {
