@@ -8,5 +8,6 @@
 @media (max-width: 670px) {
     .booking-form {
         display: block;
+        width:100%;
     }
 }
