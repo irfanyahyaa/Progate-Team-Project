@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    .booking-form {
+        margin: 0 10px;
+    }
+    
+}
+
+@media (max-width: 670px) {
+    .booking-form {
+        display: block;
+    }
+}

@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Inda */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    width: 82px;
+}
+
+.header-left {
+    float: left;
+  }
+
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    font-family: "Lucida Grande";
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+    padding: 100px 0 180px 0;
+    background-image: url(img/hotel3.jpg);
+    background-size: cover;
+    height: 500px;
+    color: #eaeaea;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    margin-top: 100px;
+    font-size: 90px;
+}
+/* Inda */
+
+/* Irfan */
+.booking-form {
+    padding-top: 100px;
+    margin: 0 100px;
+    display: grid;
+    grid-template-areas: "desc form";
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.booking-desc {
+    padding: 50px 75px;
+    grid-area: desc;
+    background-color: aquamarine;
+}
+
+.booking-desc h1,
+.booking-desc h3{
+    margin-top: 10px;
+}
+
+.booking-desc h1 {
+    font-size: 20px;
+    color: coral;
+}
+
+.booking-desc h3 {
+    font-size: 48px;
+    line-height: 90%;
+    color: rgba(0, 0, 0, .9);
+}
+
+.booking-desc p {
+    margin-top: 30px;
+    font-family: 'open sans', arial, sans-serif;
+    color: rgba(0, 0, 0, .7);
+}
+
+form {
+    padding: 50px 75px;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/form-bg.jpg);
+    background-size: cover;
+    font-family: 'open sans', arial, sans-serif;
+}
+
+input[type="date"],
+select,
+button {
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.check-out,
+.dropdown,
+button {
+    margin-top: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    background-color: aquamarine;
+    opacity: .7;
+    transition: opacity .3s, background-color .1s;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    background-color: darkred;
+}
+/* Irfan */
+
+/* Harry */
+
+.containers-one{
+    text-align: center;
+}
+
+.text-ps{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(147, 145, 145);
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.cards{
+    margin-left: 90px ;
+    margin-right: 40px;
+}
+
+.card{
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 68px;
+    padding-bottom: 70px;
+}
+
+.cards-two{
+    margin: 80px;
+}
+
+.card-black img{
+    height: 200px;
+    width: 250px;
+    filter: hue-rotate(180deg);
+}
+.card-yellow img{
+    height: 200px;
+    width: 250px;
+    filter: hue-rotate(200deg);
+}
+.card-blue img{
+    height: 200px;
+    width: 250px;
+    filter: hue-rotate(277deg);
+}
+.text-card{
+    font-size: 20px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+span{
+    font-size: 10px;
+}
+.card h3{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.containers-second{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.header-one{
+    padding-top: 90px;
+    height: 200px; 
+    width: 1000px;
+    padding-left: 64px;
+    padding-bottom: 90px;
+}
+
+.kumpulan {
+float: right;
+}
+.question-img{
+    padding-top: 10px;
+    height: 18px;
+    width: 20px;
+}
+.kumpulan li{
+    padding-bottom: 15px;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 80px;
+    font-weight:bold;
+}
+.kumpulan ul{
+    padding-bottom: 50px;
+}
+.text-question{
+    font-family: 'Merriweather', serif;
+    float: left;
+    padding-left: 57px;
+    font-size: 45px;
+    font-weight: bold;
+    clear: both;
+}
+
+.text-how h1{
+ padding-left: 20px;
+}
+/* Harry */
+
+/* Alwi */  
+  .lesson-wrapper {
+    height: 380px;
+    padding-bottom: 150px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 35px;
+    color: black;
+  }
+  
+  .bottom-wrapper {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .bottom-wrapper h1{
+    margin-bottom: 30px;
+    width: 25%;
+    padding-top: 5px;
+    float: left;
+    padding-left:50px;
+  }
+  
+  .bottom-wrapper .contenn {
+    float: right;
+    width: 47%;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    padding-right: 250px;
+  }
+  
+  .gambar .txt-contents{
+    margin-left: 0%;
+    width: 237px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  
+  .gambar img{
+    width: 180px;
+    height: 180px;
+    }
+  
+  .gambar-icon {
+    position: relative;
+  }
+  
+  /* .gambar-wrapper {
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+
+  } */
+  
+  .gambar {
+    float: left;
+    padding-left: 30px;
+    width: 25%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 23%;
+    margin-right: 20px;
+    padding-bottom: 20;
+    border: 1px solid black;
+  }
+  
+  .lesson-icon h2 {
+    padding-top: 20px;
+  }
+  
+  img {
+    width:100%;
+    height:auto;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+  }
+  /* Alwi */
