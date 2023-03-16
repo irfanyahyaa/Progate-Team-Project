@@ -247,7 +247,36 @@ float: right;
 }
 /* Harry */
 
+
 /* Alwi */  
+  .lesson-wrapper {
+    height: 380px;
+    padding-bottom: 150px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  .lessons{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 35px;
+    color: black;
+  }
+  
   .lesson-wrapper {
     height: 380px;
     padding-bottom: 150px;
@@ -272,36 +301,41 @@ float: right;
     color: black;
   }
   
-  .bottom-wrapper {
-    height: 200px;
+  .wrapper{
     width: 100%;
+    clear: both;
   }
   
-  .bottom-wrapper h1{
-    margin-bottom: 30px;
-    width: 25%;
+  .wrapper h1{
+    margin-bottom: 35px;
+    width: 26%;
     padding-top: 5px;
     float: left;
+    clear: both;
     padding-left:50px;
   }
 
-  .bottom-wrapper p{
+  .wrapper p{
     padding-top: 20px;
     font-size: 25px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    
   }
   
-  .bottom-wrapper .contenn {
-    float: right;
-    width: 47%;
+  .wrapper .contenn {
+    float: left;
+    font-size: 90px;
+    width: 29%;
     line-height: 40px;
     margin-bottom: 30px;
     font-size: 22px;
-    padding-right: 250px;
+    /* padding-right: 200px; */
   }
   
   .gambar .txt-contents{
     margin-left: 0%;
-    width: 237px;
+    width: 200px;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -317,19 +351,18 @@ float: right;
     position: relative;
   }
   
-  /* .gambar-wrapper {
+  .gambar-wrapper {
     float: left;
     width: 50%;
     padding-left: 200px;
-
-  } */
+  }
   
   .gambar {
     float: left;
     padding-left: 30px;
     width: 25%;
     margin-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     padding-right: 10px;
   }
   
@@ -337,7 +370,7 @@ float: right;
     float: left;
     width: 23%;
     margin-right: 20px;
-    padding-bottom: 20;
+    padding-bottom: 20px;
     border: 1px solid black;
   }
   
@@ -353,7 +386,7 @@ float: right;
   .txt-contents {
     width: 80%;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 15px;
     color: black;
   }
