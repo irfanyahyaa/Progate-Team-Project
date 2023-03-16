@@ -397,19 +397,18 @@ float: right;
   clear: both;
   background-color: #5f5d60;
 }
+footer img {
+  clear: both;
+  width: 125px;
+}
 
-.footer img {
-    clear:both;
-    width: 125px;
+footer p {
+  color: white;
+  font-size: 22px;
 }
-  
-.footer p {
-    color: white;
-    font-size: 22px;
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
-  
-.footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-/* Footer */
+/* Footer *
