@@ -393,16 +393,16 @@ float: right;
   /* Alwi */
 
 /* Footer */
-footer img {
+.footer img {
     width: 125px;
 }
   
-footer p {
+.footer p {
     color: #b3aeb5;
     font-size: 12px;
 }
   
-footer {
+.footer {
     padding-top: 30px;
     padding-bottom: 20px;
 }
